@@ -38,7 +38,3 @@ We retrieve all the required data for the analysis.
 url = "https://min-api.cryptocompare.com/data/histoday?fsym=BTC&tsym=USD&limit=10&e=Coinbase"
 
 f = requests.get(url)
-
-ipdata = f.json()
-
-pd.DataFrame(ipdata['Data']).head(5)
