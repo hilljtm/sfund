@@ -14,7 +14,7 @@ Make February plot
 
 Notable TODOs:
 - Clean up code so execution time is faster;
-- Make February plot;
+- ~Make February plot~
 - Use mask to clean up heatmap.
 
 # Setup
