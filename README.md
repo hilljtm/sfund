@@ -1,4 +1,7 @@
-<h1>Crypto currency heatmap</h1>
+<h1>Crypto currency plots</h1>
+
+![BTC Logo](btc_plots.png)
+Format: ![Bitcoin historical price]
 
 ## Purpose
 The purpose of this notebook is to see the correlations between different crypto currencies using a heatmap, and checking the returns using statistical methods. 
