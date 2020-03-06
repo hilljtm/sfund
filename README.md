@@ -1,6 +1,6 @@
 <h1>Crypto currency plots</h1>
 
-![BTC Logo](btc_plots.png)
+![BTC Logo](plots.png)
 
 
 ## Purpose
@@ -10,14 +10,22 @@ The purpose of this notebook is to see the correlations between different crypto
 Crypto currencies tend to be heavily correlated, especially alt-coins. When bitcoin is performing well or has an aggressive move, alt-coins tend to underperform.
 
 ## WIP - improvements
-Make February plot 
-
+ 
 Notable TODOs:
-- Clean up code so execution time is faster;
-- ~Make February plot~
+- Clean up code so execution time is faster
+- ~Make March plot~
 - Use mask to clean up heatmap.
 
 # Setup
+##### Virtual environment
+'python3 -m venv venv'
+'source venv/bin/activate'
+#### Packages
+'pip install pandas'
+'pip install numpy'
+'pip install matplotlib'
+'pip install seaborn'
+'pip install scipy'
 
 ## Library import
 We import all the required Python libraries
@@ -36,7 +44,7 @@ import seaborn as sns
 import scipy
 
 # Data import
-We retrieve all the required data for the analysis.
+We retrieve all the required data for the analysis using requests.
 
 url = "https://min-api.cryptocompare.com/data/histoday?fsym=BTC&tsym=USD&limit=10&e=Coinbase"
 
