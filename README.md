@@ -22,7 +22,7 @@ Notable TODOs:
 python3 -m venv venv
 source venv/bin/activate
 ```
-#### Packages
+##### Packages
 ```
 pip install pandas
 pip install numpy
@@ -34,19 +34,23 @@ pip install scipy
 ## Library import
 We import all the required Python libraries
 # API Calls
+```
 import requests
-
+```
 # Data manipulation
+```
 import pandas as pd
 import numpy as np
-
+```
 # Visualizations
+```
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+```
 # Statistics
+```
 import scipy
-
+```
 # Data import
 We retrieve all the required data for the analysis using requests.
 
