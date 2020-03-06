@@ -18,14 +18,18 @@ Notable TODOs:
 
 # Setup
 ##### Virtual environment
-'python3 -m venv venv'
-'source venv/bin/activate'
+'''
+python3 -m venv venv
+source venv/bin/activate
+'''
 #### Packages
-'pip install pandas'
-'pip install numpy'
-'pip install matplotlib'
-'pip install seaborn'
-'pip install scipy'
+'''
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install seaborn
+pip install scipy
+'''
 
 ## Library import
 We import all the required Python libraries
